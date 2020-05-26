@@ -3613,10 +3613,10 @@ public class CarrierConfigManager {
         sDefaults.putBoolean(KEY_SHOW_DATA_CONNECTED_ROAMING_NOTIFICATION_BOOL, false);
         sDefaults.putIntArray(KEY_LTE_RSRP_THRESHOLDS_INT_ARRAY,
                 new int[] {
-                        -128, /* SIGNAL_STRENGTH_POOR */
-                        -118, /* SIGNAL_STRENGTH_MODERATE */
-                        -108, /* SIGNAL_STRENGTH_GOOD */
-                        -98,  /* SIGNAL_STRENGTH_GREAT */
+                        -130, /* SIGNAL_STRENGTH_POOR */
+                        -120, /* SIGNAL_STRENGTH_MODERATE */
+                        -110, /* SIGNAL_STRENGTH_GOOD */
+                        -100,  /* SIGNAL_STRENGTH_GREAT */
                 });
         sDefaults.putIntArray(KEY_WCDMA_RSCP_THRESHOLDS_INT_ARRAY,
                 new int[] {
